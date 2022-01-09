@@ -1,17 +1,11 @@
 import Layout from "../component/layout/app/layout";
-import styled, { css } from 'styled-components';
-import { BtnLabelL, BtnLabelS, DiscordBtnLabel, DiscordDescription, H1, Headline1, MiniButtonLabel, TextL, TextXL, Typography } from "../component/common/value/text";
-import { accent, black, iris, white } from "../component/common/value/color";
-import QnaCard from "../component/layout/home/qna_card";
-import Slogan from "../component/layout/home/Slogan";
-import Aim from "../component/layout/home/Aim";
+import Slogan from "../component/layout/home/slogan";
+import Aim from "../component/layout/home/aim";
 import Roadmap from "../component/layout/home/roadmap";
-import { ImgDiv } from "../component/layout/home/component";
 import Qna from "../component/layout/home/qna";
 import Discord from "../component/layout/home/discord";
 import Header from "../component/layout/home/header";
 import Warning from "../component/layout/app/warning";
-import { useEffect } from "react";
 import { isMobile } from "react-device-detect";
 import MobileDetect from "mobile-detect";
 
