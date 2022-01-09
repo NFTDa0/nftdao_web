@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { isMobile as mobile } from 'react-device-detect';
 import { H1, H5, TextS, TextXL } from '../../common/value/text';
 import { Img, AimDiv, ImgDiv } from './component';
 import styled from 'styled-components';
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/fade';
 
 
 const BoxDiv = styled.div`

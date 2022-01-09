@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 import styled, { css } from 'styled-components';
 import { Description, FooterLabel, H7 } from '../../common/value/text';
 import { white } from '../../common/value/color';
-import { isMobile as mobile } from 'react-device-detect';
 import { Cursor, ReactiveDiv, RowDiv } from '../home/component';
 import Link from 'next/link';
 

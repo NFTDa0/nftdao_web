@@ -1,6 +1,5 @@
 
 import { useState } from 'react';
-import { isMobile as mobile } from 'react-device-detect';
 import styled from 'styled-components';
 import { white } from '../../common/value/color';
 import { BtnLabelL, TextM } from '../../common/value/text';

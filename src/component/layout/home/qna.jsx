@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
-import styled, { css } from 'styled-components';
 import { FooterLabel, H1, H5, TextXL } from '../../common/value/text';
-import { white } from '../../common/value/color';
 import { QnaDiv } from './component';
 import QnaCard from './qna_card';
-import { isMobile } from 'react-device-detect';
 
 
 export default function Qna({mobile}) {

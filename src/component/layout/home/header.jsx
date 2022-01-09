@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { isMobile as mobile } from 'react-device-detect';
 import styled, { css } from 'styled-components';
 import { black, white } from '../../common/value/color';
 import { BtnLabelL, BtnLabelM, BtnLabelS, Description, H5, TextL, TextM, TextXL } from '../../common/value/text';
