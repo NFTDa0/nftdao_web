@@ -1,4 +1,3 @@
-import Header from './header';
 import Footer from './footer';
 import styled from 'styled-components';
 import Head from "next/head";
@@ -6,11 +5,9 @@ import Head from "next/head";
 const Body = styled.div`
   display: flex;
   flex-direction: column;
-  /* align-items: stretch; */
   width: 100%;
 
   @media all and (min-width: 800px) {
-    /* width: 500px; */
   }
 `;
 

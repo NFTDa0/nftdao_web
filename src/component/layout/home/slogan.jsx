@@ -1,13 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { isMobile } from 'react-device-detect';
 import { Img, ImgDiv, SloganDiv } from './component';
 import ScrollContainer from 'react-indiana-drag-scroll'
-import styled from 'styled-components';
-
-const ScrollDiv = styled.div`
-  display: flex;
-  padding: 0 100px 0 32px;
-`;
 
 export default function Slogan({mobile}) {
   return (

@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
 import styled, { css } from 'styled-components';
 import { FooterLabel, H7, TextXL } from '../../common/value/text';
-import { white } from '../../common/value/color';
-import { isMobile as mobile } from 'react-device-detect';
 
 const RootDiv = styled.div`
   display: flex;

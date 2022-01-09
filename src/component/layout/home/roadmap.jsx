@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { BtnLabelS, Description, FooterLabel, H1, H5, TextS, TextXL } from '../../common/value/text';
 import { accent, black, iris, white } from '../../common/value/color';
 import { Img, ImgDiv, PhaseBtn, PhaseDiv, RoadmapDiv, RowDiv } from './component';
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/fade';
 import styled from 'styled-components';
 
 const LightDiv = styled.div`
