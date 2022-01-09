@@ -75,7 +75,7 @@ export default function Footer({mobile}) {
         <RowDiv gap='20px'>
           <Cursor>
             <Link href='https://twitter.com/NftdaoCool'>
-              <a target="_blank">
+              <a target="_blank" style={{ textDecoration: 'none' }}>
                 { mobile 
                   ? <Description color={white}>
                       Twitter
@@ -89,7 +89,7 @@ export default function Footer({mobile}) {
           </Cursor>
           <Cursor>
             <Link href='https://twitter.com/NftdaoCool'>
-              <a target="_blank">
+              <a target="_blank" style={{ textDecoration: 'none' }}>
                 { mobile 
                   ? <Description color={white}>
                       Discord
@@ -103,7 +103,7 @@ export default function Footer({mobile}) {
           </Cursor>
           <Cursor>
             <Link href='/terms'>
-              <a target="_blank">
+              <a target="_blank" style={{ textDecoration: 'none' }}>
                 { mobile 
                   ? <Description color={white}>
                       Terms of Sale
